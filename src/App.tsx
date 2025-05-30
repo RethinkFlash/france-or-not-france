@@ -8,7 +8,7 @@ function App() {
       <div className='text-9xl'>
         {countryCodeToFlagEmoji('fr')}
       </div>
-      <h1>OMG! Your from France? That is so cool!</h1>
+      <h1>OMG! You're from France? That is so cool!</h1>
     </>
   )
 }
