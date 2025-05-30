@@ -3,8 +3,8 @@ frontend:
   phases:
     preBuild:
       commands:
-        - corepack enable  # Optional, for Node 16+
-        - npm install -g pnpm
+        - corepack enable
+        - if ! command -v pnpm &> /dev/null; then npm install -g pnpm; fi
         - pnpm install
     build:
       commands:
