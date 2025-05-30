@@ -6,9 +6,10 @@ function App() {
   return (
     <>
       <div className='text-9xl'>
-        {countryCodeToFlagEmoji('fr')}
+        {countryCodeToFlagEmoji('en-CA')}
+        {countryCodeToFlagEmoji('en-US')}
       </div>
-      <h1>OMG! Your from France? That is so cool!</h1>
+      <h1>Ew! You're NOT from France? Please leave!</h1>
     </>
   )
 }
